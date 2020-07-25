@@ -53,13 +53,14 @@ CACHES = {
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
 USE_TZ = True
-TIME_ZONE = 'Europe/London'
+TIME_ZONE = 'America/New_York'
+OSCAR_DEFAULT_CURRENCY = 'USD'
 
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-gb'
+LANGUAGE_CODE = 'en-us'
 
 # Includes all languages that have >50% coverage in Transifex
 # Taken from Django's default setting for LANGUAGES
@@ -71,6 +72,7 @@ LANGUAGES = (
     ('da', gettext_noop('Danish')),
     ('de', gettext_noop('German')),
     ('en-gb', gettext_noop('British English')),
+    ('en-us', gettext_noop('US English')),
     ('el', gettext_noop('Greek')),
     ('es', gettext_noop('Spanish')),
     ('fi', gettext_noop('Finnish')),
