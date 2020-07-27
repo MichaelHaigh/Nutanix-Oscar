@@ -366,7 +366,7 @@ from oscar.defaults import *
 
 # NCN Tagline
 OSCAR_SHOP_TAGLINE = os.environ.get('SHOP_TAGLINE', 'Running on Nutanix AHV, Nutanix Clusters on AWS, and AWS EC2')
-OSCAR_PRODUCTS_PER_PAGE = 8
+OSCAR_PRODUCTS_PER_PAGE = 12
 
 # Meta
 # ====
